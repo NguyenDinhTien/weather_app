@@ -9,6 +9,7 @@ class ThemeCubit extends HydratedCubit<String> {
   static const defaultPath = 'assets/sunny.jpg';
 
   void updateTheme(WeatherRepo? weather) {
+    print('debugging');
     if (weather != null) emit(weather.toPathImg);
   }
 
@@ -34,14 +35,12 @@ extension on WeatherRepo {
         return 'assets/thunderstorm.jpg';
       case 'Clear':
         return 'assets/clear.jpg';
-      case 'Atmostphere':
-        return 'assets/dust.jpg';
       case 'Snow':
         return 'assets/snow.jpg';
       case 'Drizzle':
         return 'assets/drizzle.jpg';
       default:
-        return 'assets/sunny.jpg';
+        return 'assets/dust.jpg';
     }
   }
 }
