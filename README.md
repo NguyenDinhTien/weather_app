@@ -1,7 +1,6 @@
 # weather_app
 
-A new Flutter project.
-
+Weather Application using the bloc and flutter_bloc packages.
 ## Image
 
 <p float="center", align="justify ">
