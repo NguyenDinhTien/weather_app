@@ -100,6 +100,7 @@ class WeatherView extends StatelessWidget {
                 flex: 8,
                 child: Center(
                   child: BlocConsumer<WeatherCubit, WeatherState>(
+                    listenWhen: (p, c) => p.status != c.status,
                     listener: (context, state) {
                       if (state.status.isSuccess) {
                         context.read<ThemeCubit>().updateTheme(state.weather);

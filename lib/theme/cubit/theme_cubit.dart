@@ -8,25 +8,18 @@ class ThemeCubit extends HydratedCubit<String> {
 
   static const defaultPath = 'assets/sunny.jpg';
 
-  void updateTheme(WeatherRepo ? weather) {
-
-    print('debugging');
+  void updateTheme(WeatherRepo? weather) {
     if (weather != null) emit(weather.toPathImg);
   }
 
   @override
   String fromJson(Map<String, dynamic> json) {
-    json;
-    print('debugging');
-   return json['bg'] as String;
+    return json['bg'] as String;
   }
 
   @override
   Map<String, dynamic> toJson(String state) {
-    state;
-    print('debugging');
-    // TODO: implement toJson
-   return <String, String>{'bg': state}; 
+    return <String, String>{'bg': state};
   }
 }
 
@@ -36,7 +29,7 @@ extension on WeatherRepo {
       case 'Clouds':
         return 'assets/cloud.jpg';
       case 'Rain':
-        return 'assets/cloud.jpg';
+        return 'assets/rain.jpg';
       case 'ThunderStorm':
         return 'assets/thunderstorm.jpg';
       case 'Clear':

@@ -12,9 +12,10 @@ class SingleWeather extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder<WeatherCubit, WeatherState>(builder: ((context, state) {
+    return BlocBuilder<WeatherCubit, WeatherState>(
+      builder: ((context, state) {
       return Container(
-        padding: EdgeInsets.all(20),
+        padding:const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
