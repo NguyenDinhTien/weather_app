@@ -12,12 +12,4 @@ Weather Application using the bloc and flutter_bloc packages.
 
 <img src="https://user-images.githubusercontent.com/22581967/172359689-c6fd75d7-63fc-4e89-828c-f824c41ad93e.jpg" width="200" />
 
-<img src="https://user-images.githubusercontent.com/22581967/172359689-c6fd75d7-63fc-4e89-828c-f824c41ad93e.jpg" width="200" />
-
-<img src="https://user-images.githubusercontent.com/22581967/172359689-c6fd75d7-63fc-4e89-828c-f824c41ad93e.jpg" width="200" />
-
-<img src="https://user-images.githubusercontent.com/22581967/172359689-c6fd75d7-63fc-4e89-828c-f824c41ad93e.jpg" width="200" />
-
-<img src="https://user-images.githubusercontent.com/22581967/172359689-c6fd75d7-63fc-4e89-828c-f824c41ad93e.jpg" width="200" />
-
 </p>
