@@ -33,6 +33,7 @@ class WeatherAppView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     print('this is a new line');
+    print('this is a new line two');
     final textTheme = Theme.of(context).textTheme;
     return MaterialApp(
       theme: ThemeData(
