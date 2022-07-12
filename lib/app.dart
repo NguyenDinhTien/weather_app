@@ -21,7 +21,7 @@ class WeatherApp extends StatelessWidget {
         create: (_) {
           return ThemeCubit();
         },
-        child:const WeatherAppView(),
+        child: const WeatherAppView(),
       ),
     );
   }
@@ -32,6 +32,7 @@ class WeatherAppView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('this is a new line');
     final textTheme = Theme.of(context).textTheme;
     return MaterialApp(
       theme: ThemeData(
@@ -44,7 +45,7 @@ class WeatherAppView extends StatelessWidget {
         ),
       ),
       // home: WeatherPage(),
-      home:const WeatherPage(),
+      home: const WeatherPage(),
     );
   }
 }
