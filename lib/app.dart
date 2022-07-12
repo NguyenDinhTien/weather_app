@@ -15,6 +15,7 @@ class WeatherApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('add feature 2');
     return RepositoryProvider.value(
       value: _weatherRepository,
       child: BlocProvider(
